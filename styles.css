@@ -1,0 +1,41 @@
+.assistant-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.assistant-circle i {
+    font-size: 2rem;
+    color: white;
+}
+
+.history-content {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.history-entry {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.command {
+    color: #007bff;
+    margin-bottom: 0.25rem;
+}
+
+.response {
+    color: #28a745;
+}
+
+#visualizer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
